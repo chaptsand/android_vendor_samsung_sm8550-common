@@ -22052,14 +22052,6 @@ sh_binary {
 }
 
 sh_binary {
-    name: "init.qcom.post_boot",
-    owner: "samsung",
-    src: "proprietary/vendor/bin/init.qcom.post_boot.sh",
-    filename: "init.qcom.post_boot.sh",
-    soc_specific: true,
-}
-
-sh_binary {
     name: "init.qcom.sensors",
     owner: "samsung",
     src: "proprietary/vendor/bin/init.qcom.sensors.sh",
