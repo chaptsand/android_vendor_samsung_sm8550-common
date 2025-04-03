@@ -6,11 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/sm8550-common
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/sm8550-common/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
-    vendor/samsung/sm8550-common/proprietary/system_ext/etc/init/tcmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/tcmd.rc \
     vendor/samsung/sm8550-common/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
-    vendor/samsung/sm8550-common/proprietary/system_ext/etc/seccomp_policy/tcmd.policy:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/seccomp_policy/tcmd.policy \
-    vendor/samsung/sm8550-common/proprietary/system_ext/etc/sysconfig/qti_whitelist_system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_whitelist_system_ext.xml \
     vendor/samsung/sm8550-common/proprietary/vendor/etc/audio/sku_kalama/mixer_paths_kalama_cdp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/mixer_paths_kalama_cdp.xml \
     vendor/samsung/sm8550-common/proprietary/vendor/etc/audio/sku_kalama/mixer_paths_kalama_cdp_wsa883x.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/mixer_paths_kalama_cdp_wsa883x.xml \
     vendor/samsung/sm8550-common/proprietary/vendor/etc/audio/sku_kalama/mixer_paths_kalama_grd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/mixer_paths_kalama_grd.xml \
@@ -36,15 +32,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8550-common/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/samsung/sm8550-common/proprietary/vendor/etc/dax3_media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dax3_media_codecs_dolby_audio.xml \
     vendor/samsung/sm8550-common/proprietary/vendor/etc/default-permissions/com.qualcomm.qti.cne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default-permissions/com.qualcomm.qti.cne.xml \
-    vendor/samsung/sm8550-common/proprietary/vendor/etc/display/DPU660.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU660.xml \
-    vendor/samsung/sm8550-common/proprietary/vendor/etc/display/DPU670.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU670.xml \
-    vendor/samsung/sm8550-common/proprietary/vendor/etc/display/DPU720.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU720.xml \
-    vendor/samsung/sm8550-common/proprietary/vendor/etc/display/DPU7__.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU7__.xml \
-    vendor/samsung/sm8550-common/proprietary/vendor/etc/display/DPU820.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU820.xml \
-    vendor/samsung/sm8550-common/proprietary/vendor/etc/display/DPU8__.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU8__.xml \
-    vendor/samsung/sm8550-common/proprietary/vendor/etc/display/DPU9__.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU9__.xml \
-    vendor/samsung/sm8550-common/proprietary/vendor/etc/display/advanced_sf_offsets.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/advanced_sf_offsets.xml \
-    vendor/samsung/sm8550-common/proprietary/vendor/etc/display/thermallevel_to_fps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/thermallevel_to_fps.xml \
     vendor/samsung/sm8550-common/proprietary/vendor/etc/eva/facedetection/model3.dat:$(TARGET_COPY_OUT_VENDOR)/etc/eva/facedetection/model3.dat \
     vendor/samsung/sm8550-common/proprietary/vendor/etc/external_camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/external_camera_config.xml \
     vendor/samsung/sm8550-common/proprietary/vendor/etc/gnss_antenna_info.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gnss_antenna_info.conf \
@@ -77,7 +64,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8550-common/proprietary/vendor/etc/init/loc-launcher.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/loc-launcher.rc \
     vendor/samsung/sm8550-common/proprietary/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
     vendor/samsung/sm8550-common/proprietary/vendor/etc/init/nxp.android.hardware.nfc@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nxp.android.hardware.nfc@1.2-service.rc \
-    vendor/samsung/sm8550-common/proprietary/vendor/etc/init/qdcmss.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qdcmss.rc \
     vendor/samsung/sm8550-common/proprietary/vendor/etc/init/qmipriod.debug.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qmipriod.debug.rc \
     vendor/samsung/sm8550-common/proprietary/vendor/etc/init/qmipriod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qmipriod.rc \
     vendor/samsung/sm8550-common/proprietary/vendor/etc/init/qms.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qms.rc \
@@ -122,7 +108,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8550-common/proprietary/vendor/etc/models/acd/event.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/event.eai \
     vendor/samsung/sm8550-common/proprietary/vendor/etc/models/acd/music.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/music.eai \
     vendor/samsung/sm8550-common/proprietary/vendor/etc/models/acd/speech.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/speech.eai \
-    vendor/samsung/sm8550-common/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
     vendor/samsung/sm8550-common/proprietary/vendor/etc/mtu-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtu-conf.xml \
     vendor/samsung/sm8550-common/proprietary/vendor/etc/pdpcnt-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pdpcnt-conf.xml \
     vendor/samsung/sm8550-common/proprietary/vendor/etc/permissions/vendor.android.hardware.camera.preview-dis.back.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.android.hardware.camera.preview-dis.back.xml \
@@ -435,7 +420,6 @@ PRODUCT_PACKAGES += \
     libauto_framing_arcsoft.uniplugin@1.0 \
     libauto_framing_lite.uniplugin@1.0 \
     libautotracking_interface \
-    libbacklight-calib \
     libbatching \
     libbeauty_preview.uniplugin@1.0 \
     libbeautyshot.arcsoft \
@@ -469,9 +453,6 @@ PRODUCT_PACKAGES += \
     libcdsp_default_listener \
     libcdsprpc \
     libchilog \
-    libclstc_algorithm_adapter \
-    libclstc_gcp_adapter \
-    libclstc_tm \
     libcneapiclient \
     libcommonchiutils \
     libconfigdb \
@@ -480,11 +461,6 @@ PRODUCT_PACKAGES += \
     libdataitems \
     libdiag \
     libdiagjni \
-    libdigital-dimming \
-    libdisp-aba \
-    libdisplayqos \
-    libdisplayskuutils \
-    libdpps \
     libdrmfs \
     libdrmtime \
     libdsd2pcm \
@@ -515,7 +491,6 @@ PRODUCT_PACKAGES += \
     libformatConverter.unifunc \
     libfrc.quram \
     libfrc_quram.uniplugin@1.0 \
-    libgame_enhance \
     libgeofencing \
     libgf_in_system_lib \
     libgnss \
@@ -528,9 +503,7 @@ PRODUCT_PACKAGES += \
     libhand_interaction.uniplugin@1.0 \
     libhandgesture.arcsoft \
     libhdr10plus \
-    libhdr_backlight_adapter \
     libhdr_stub \
-    libhdr_tm \
     libhdradaptivecustom \
     libhdraid.gpu.arcsoft \
     libhdraid.npu.arcsoft \
@@ -548,7 +521,6 @@ PRODUCT_PACKAGES += \
     libimage_enhancement.arcsoft \
     libimagecodec_native.quram \
     libimgproc_sw.unifunc@common \
-    libintervmipc \
     libipebpsstriping \
     libipebpsstriping170 \
     libipebpsstriping480 \
@@ -601,12 +573,10 @@ PRODUCT_PACKAGES += \
     libmdmdetect \
     libmdmimgload \
     libmdsprpc \
-    libmemutils \
     libmfGhostDetection \
     libmfec \
     libminkdescriptor \
     libminksocket_vendor \
-    libmm-hdcpmgr \
     libmmcamera_bestats \
     libmmcamera_cac3 \
     libmmcamera_lscv35 \
@@ -670,9 +640,6 @@ PRODUCT_PACKAGES += \
     libqcodec2_platform \
     libqcodec2_utils \
     libqcodec2_v4l2codec \
-    libqdcm-algo \
-    libqdcm-json-mode-parser \
-    libqdcm-mode-parser \
     libqdi \
     libqdp \
     libqdpr \
@@ -693,15 +660,12 @@ PRODUCT_PACKAGES += \
     libqmiservices \
     libqnnengine \
     libqrtr \
-    libqrtrclient \
-    libqseed3 \
     libqsegnet \
     libqshcamera \
     libqsocket \
     libqtigefar \
     libqtikeymaster4 \
     librapidscorerplus \
-    librcmask \
     librecordalive \
     libril_sem \
     librmengine_plus.uniplugin@1.0 \
@@ -720,10 +684,6 @@ PRODUCT_PACKAGES += \
     libscveObjectSegmentation_stub \
     libscveObjectTracker \
     libscveObjectTracker_stub \
-    libsdm-color \
-    libsdm-colormgr-algo \
-    libsdm-disp-vndapis \
-    libsdmextension \
     libsdsprpc \
     libsec-ril \
     libsec2imageformatfilter \
@@ -764,8 +724,6 @@ PRODUCT_PACKAGES += \
     libsnap_qnn \
     libsnap_vndk \
     libsnap_vndk_secure \
-    libsnapdragoncolor-manager \
-    libsnapdragoncolor-qdcm \
     libsnaplite_native \
     libsnaplite_native_secure \
     libsnaplite_wrapper \
@@ -806,13 +764,11 @@ PRODUCT_PACKAGES += \
     libtensorflowLite.singletake.camera.samsung \
     libtensorflowlite.camera.samsung \
     libtensorflowlite_gpu.camera.samsung \
-    libtestutils \
     libtfestriping \
     libtflitecore \
     libthermalclient \
     libthreadutils \
     libtime_genoff \
-    libtinyxml2_1 \
     libtrustedapploader \
     libtswrappercommon \
     libubifocus \
@@ -826,7 +782,6 @@ PRODUCT_PACKAGES += \
     libvideotxr \
     libvideoutils \
     libvkmanager_vendor \
-    libvmfilexfer \
     libvmmem \
     libwvaidl \
     libxml \
@@ -851,15 +806,6 @@ PRODUCT_PACKAGES += \
     unihal_main \
     unihal_scenario \
     unihal_uniplugin@1.0 \
-    vendor.display.color@1.0 \
-    vendor.display.color@1.1 \
-    vendor.display.color@1.2 \
-    vendor.display.color@1.3 \
-    vendor.display.color@1.4 \
-    vendor.display.color@1.5 \
-    vendor.display.color@1.6 \
-    vendor.display.color@1.7 \
-    vendor.display.postproc@1.0 \
     vendor.qti.data.factory@2.0 \
     vendor.qti.data.factory@2.1 \
     vendor.qti.data.factory@2.2 \
@@ -923,7 +869,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.latency@2.0 \
     vendor.qti.latency@2.1 \
     vendor.qti.latency@2.2 \
-    vendor.qti.qspmhal@1.0 \
     vendor.samsung.hardware.audio@1.0 \
     vendor.samsung.hardware.biometrics.fingerprint-V1-ndk \
     vendor.samsung.hardware.bluetooth.a2dpsink@1.0 \
@@ -1013,27 +958,12 @@ PRODUCT_PACKAGES += \
     libscveT2T_skel \
     libvpt_action_recognition \
     libQnnHtpV73Skel \
-    libdiag_system \
     libmmosal \
     libmmparser_lite \
-    vendor.qti.diaghal@1.0 \
-    vendor.qti.imsrtpservice@3.0 \
-    vendor.qti.imsrtpservice@3.1 \
     TimeService \
     HotwordEnrollmentOKGoogleEx4HEXAGON \
     HotwordEnrollmentXGoogleEx4HEXAGON \
-    uimservicelibrary \
     com.android.hotwordenrollment.common.util \
-    vendor.qti.ims.connection-V1.0-java \
-    vendor.qti.ims.factory-V2.0-java \
-    vendor.qti.ims.factory-V2.1-java \
-    vendor.qti.ims.factory-V2.2-java \
-    vendor.qti.ims.rcssip-V1.0-java \
-    vendor.qti.ims.rcssip-V1.1-java \
-    vendor.qti.ims.rcssip-V1.2-java \
-    vendor.qti.ims.rcsuce-V1.0-java \
-    vendor.qti.ims.rcsuce-V1.1-java \
-    vendor.qti.ims.rcsuce-V1.2-java \
     android.hardware.gnss-aidl-service-qti.xml \
     android.hardware.security.keymint-service-qti.xml \
     bttpi-saidl.xml \
@@ -1094,9 +1024,7 @@ PRODUCT_PACKAGES += \
     pktlogconf \
     pm-proxy \
     pm-service \
-    ppd \
     qcc-vendor \
-    qdcmss \
     qms \
     qrtr-cfg \
     qrtr-lookup \
