@@ -958,8 +958,6 @@ PRODUCT_PACKAGES += \
     libscveT2T_skel \
     libvpt_action_recognition \
     libQnnHtpV73Skel \
-    libmmosal \
-    libmmparser_lite \
     TimeService \
     HotwordEnrollmentOKGoogleEx4HEXAGON \
     HotwordEnrollmentXGoogleEx4HEXAGON \
